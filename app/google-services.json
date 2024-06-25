@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "388598117299",
+    "firebase_url": "https://slide7-36444-default-rtdb.firebaseio.com",
+    "project_id": "slide7-36444",
+    "storage_bucket": "slide7-36444.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388598117299:android:5da5ce66883830fc0411c6",
+        "android_client_info": {
+          "package_name": "com.example.slide7"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoP7CQo3HaKRXW6U7LhPL_-YmpAUEfSCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388598117299:android:7e67dd3c9bd02d090411c6",
+        "android_client_info": {
+          "package_name": "fpoly.demofirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoP7CQo3HaKRXW6U7LhPL_-YmpAUEfSCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

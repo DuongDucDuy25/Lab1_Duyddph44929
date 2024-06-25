@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPhoneActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập phone"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_edittext"
+        app:backgroundTint="@null"
+        android:padding="10dp"
+        android:inputType="number"
+        android:ems="10"
+
+        />
+    <Button
+        android:id="@+id/btnGetOTP"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:hint="Gui Ma OTP"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_edittext"
+        app:backgroundTint="@null"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/txtXacMinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập OTP"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_edittext"
+        app:backgroundTint="@null"
+        android:padding="10dp"
+        android:inputType="number"
+        android:ems="10"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng Nhập"
+            android:textSize="20dp"
+            android:background="@drawable/custom_button"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
