@@ -6,25 +6,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    tools:context=".HomeActivity">
+    tools:context=".HomeActivity"
+    android:layout_gravity="center">
 
-    <TextView
-        android:id="@+id/welcomeText"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to FPT"
-        android:textSize="24sp"
-        android:textColor="#FFA500"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:padding="16dp"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
 
-    <ImageView
-        android:id="@+id/logoImage"
-        android:layout_width="wrap_content"
+
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="100dp"
+            />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcItem"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/logofptxoaphong"
-        android:padding="16dp"/>
+        android:layout_margin="10dp" />
+
 
 </LinearLayout>

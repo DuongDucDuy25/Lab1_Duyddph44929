@@ -3,18 +3,47 @@ package fpoly.demofirebase;
 import java.util.HashMap;
 
 public class ToDo {
-    private String title,content;
+    private String id;
+    private String name,price,title;
 
-    public HashMap<String,Object> convertToHashMap(){
-        HashMap<String,Object> map = new HashMap<>();
-        map.put("title",title);
-        map.put("content",content);
-        return map;
+    public ToDo() {
     }
 
-    public ToDo(String title, String content) {
+    public ToDo(String name, String price, String title) {
+        this.name = name;
+        this.price = price;
         this.title = title;
-        this.content = content;
+    }
+
+    public ToDo(String id, String name, String price, String title) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.title = title;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
     }
 
     public String getTitle() {
@@ -23,13 +52,5 @@ public class ToDo {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
     }
 }

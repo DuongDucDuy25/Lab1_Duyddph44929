@@ -29,6 +29,7 @@
         android:background="@drawable/custom_edittext"
         app:backgroundTint="@null"
         android:padding="10dp"
+        android:inputType="textPassword"
         />
     <LinearLayout
         android:layout_width="wrap_content"
